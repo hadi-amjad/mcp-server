@@ -1,6 +1,7 @@
 import express from "express";
-import { NodeServer } from "@modelcontextprotocol/sdk/server/node.js";
-import { createRPCHandler } from "@modelcontextprotocol/sdk/rpc.js";
+import { NodeServer } from "@modelcontextprotocol/sdk/server";
+import { createRPCHandler } from "@modelcontextprotocol/sdk/rpc";
+
 
 const app = express();
 const port = process.env.PORT || 3000;
